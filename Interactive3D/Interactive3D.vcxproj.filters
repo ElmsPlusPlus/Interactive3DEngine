@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{bca4cc9b-eabe-48ff-8eac-9138787032db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2fa2c02a-e41e-482e-8e08-9c648e4d898a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Shaders">
+      <UniqueIdentifier>{7df480bf-9f68-42d1-ac1f-1dcf6c1e467c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{7678463a-6a2b-468a-91cf-598ba7067698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Header Files">
+      <UniqueIdentifier>{dff8204d-2349-4038-ae71-2e8b62738d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source Files">
+      <UniqueIdentifier>{91101ebb-773c-4ae0-bab7-9360df460a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Header Files">
+      <UniqueIdentifier>{de1dcf6d-cf2a-45d4-bc63-a568779d54e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Source Files">
+      <UniqueIdentifier>{1ab57248-7642-4a6d-8783-2dbf0d67a3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Libraries">
+      <UniqueIdentifier>{905faf67-2b09-4ee0-86ee-da34c4b552ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interactive3D.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNode.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Renderer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BiPlaneNode.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainNode.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePadController.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXBoundingVolumes.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodenCube.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interactive3D.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Renderer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BiPlaneNode.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainNode.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePadController.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXBoundingVolumes.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodenCube.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader.hlsl">
+      <Filter>Renderer\Shaders</Filter>
+    </None>
+    <None Include="Wood.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="white.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assimp32.dll">
+      <Filter>Engine\Libraries</Filter>
+    </None>
+    <None Include="bihull.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="airplane.x">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Terrain1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="terrain1.raw">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sky.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+﻿Build started 23/12/2012 22:12:18.
+     1>Project "D:\Uni Work\Year2\Interactive 3D\Interactive 3D Project\Interactive3D\Interactive3D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Interactive3D.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BiPlaneNode.cpp Camera.cpp Cube.cpp Framework.cpp GamePadController.cpp Interactive3D.cpp ModelNode.cpp Renderer.cpp ResourcesManager.cpp SceneGraph.cpp SkyBox.cpp TerrainNode.cpp WoodenCube.cpp
+         WoodenCube.cpp
+         TerrainNode.cpp
+         SkyBox.cpp
+         SceneGraph.cpp
+         ResourcesManager.cpp
+         Renderer.cpp
+         ModelNode.cpp
+         Interactive3D.cpp
+         GamePadController.cpp
+         Framework.cpp
+         Cube.cpp
+         BiPlaneNode.cpp
+         Generating Code...
+         Compiling...
+         Camera.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Uni Work\Year2\Interactive 3D\Interactive 3D Project\Debug\Interactive3D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Interactive3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Uni Work\Year2\Interactive 3D\Interactive 3D Project\Debug\Interactive3D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Uni Work\Year2\Interactive 3D\Interactive 3D Project\Debug\Interactive3D.lib" /MACHINE:X86 Debug\Interactive3D.exe.embed.manifest.res
+         Debug\BiPlaneNode.obj
+         Debug\Camera.obj
+         Debug\Cube.obj
+         Debug\DirectXBoundingVolumes.obj
+         Debug\Framework.obj
+         Debug\GamePadController.obj
+         Debug\Interactive3D.obj
+         Debug\Mesh.obj
+         Debug\ModelNode.obj
+         Debug\Renderer.obj
+         Debug\ResourcesManager.obj
+         Debug\SceneGraph.obj
+         Debug\SceneNode.obj
+         Debug\SkyBox.obj
+         Debug\TerrainNode.obj
+         Debug\WoodenCube.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Interactive3D.exe.embed.manifest" /manifest Debug\Interactive3D.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Interactive3D.vcxproj -> D:\Uni Work\Year2\Interactive 3D\Interactive 3D Project\Debug\Interactive3D.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Interactive3D.unsuccessfulbuild".
+         Touching "Debug\Interactive3D.lastbuildstate".
+     1>Done Building Project "D:\Uni Work\Year2\Interactive 3D\Interactive 3D Project\Interactive3D\Interactive3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:13.40
